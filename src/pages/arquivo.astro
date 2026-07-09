@@ -40,7 +40,7 @@ const diaDoAno = Math.floor(diferencaMs / (1000 * 60 * 60 * 24)) + 1;
               <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
             </svg>
           </button>
-          <a href="/" class="btn-secondary">← Palavra de hoje</a>
+          <a href={`${import.meta.env.BASE_URL}/`} class="btn-secondary">← Palavra de hoje</a>
         </div>
       </div>
     </header>
@@ -91,7 +91,7 @@ const diaDoAno = Math.floor(diferencaMs / (1000 * 60 * 60 * 24)) + 1;
                 <>
                   <h3 class="palavra-titulo">{palavra}</h3>
                   <p class="palavra-significado">{significado}</p>
-                  <a href={`/palavra/${dia}`} class="btn-ver-mais">Ver detalhes →</a>
+                  <a href={`${import.meta.env.BASE_URL}/palavra/${dia}`} class="btn-ver-mais">Ver detalhes →</a>
                 </>
               ) : (
                 <>
