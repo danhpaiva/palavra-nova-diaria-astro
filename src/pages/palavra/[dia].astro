@@ -40,8 +40,8 @@ const { palavra: palavraTexto, classe, silabacao, tonicidade, significado, etimo
               <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
             </svg>
           </button>
-          <a href="/arquivo" class="btn-secondary">Arquivo</a>
-          <a href="/" class="btn-secondary">← Hoje</a>
+          <a href={`${import.meta.env.BASE_URL}/arquivo`} class="btn-secondary">Arquivo</a>
+          <a href={`${import.meta.env.BASE_URL}/`} class="btn-secondary">← Hoje</a>
         </div>
       </div>
     </header>
@@ -49,13 +49,13 @@ const { palavra: palavraTexto, classe, silabacao, tonicidade, significado, etimo
     <main>
       <div class="navegacao">
         {dia > 1 && (
-          <a href={`/palavra/${dia - 1}`} class="btn-nav">
+          <a href={`${import.meta.env.BASE_URL}/palavra/${dia - 1}`} class="btn-nav">
             ← Dia {dia - 1}
           </a>
         )}
         <div class="day-badge">Dia {dia} de 365</div>
         {dia < 366 && (
-          <a href={`/palavra/${dia + 1}`} class="btn-nav">
+          <a href={`${import.meta.env.BASE_URL}/palavra/${dia + 1}`} class="btn-nav">
             Dia {dia + 1} →
           </a>
         )}
