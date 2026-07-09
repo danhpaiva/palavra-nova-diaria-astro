@@ -1,0 +1,15 @@
+{
+  "palavra": "palavra123",
+  "classe": "substantivo masculino",
+  "silabacao": "pa-la-vra-123",
+  "tonicidade": "paroxítona",
+  "significado": "Significado da palavra 123 (a ser preenchido).",
+  "etimologia": "Etimologia a ser definida.",
+  "exemploCotidiano": "Exemplo cotidiano 123.",
+  "exemploLiterario": "Exemplo literário 123.",
+  "sinonimos": [
+    "sinônimo1",
+    "sinônimo2"
+  ],
+  "dificuldade": 2
+}

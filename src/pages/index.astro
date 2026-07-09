@@ -1,0 +1,501 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+// Pega todas as palavras
+const palavras = await getCollection('palavras');
+
+// Calcula o dia do ano atual
+const hoje = new Date();
+const inicioDano = new Date(hoje.getFullYear(), 0, 1);
+const diferencaMs = hoje.getTime() - inicioDano.getTime();
+const diaDoAno = Math.floor(diferencaMs / (1000 * 60 * 60 * 24)) + 1;
+
+// Busca a palavra correspondente ao dia (001, 002, etc., sem .json)
+const diaFormatado = String(diaDoAno).padStart(3, '0');
+let palavraDeHoje = palavras.find(p => p.id === diaFormatado);
+
+// Fallback: se não encontrar a palavra do dia, use a palavra 001
+if (!palavraDeHoje) {
+  console.warn(`Palavra não encontrada para o dia ${diaDoAno}, usando dia 1 como fallback`);
+  palavraDeHoje = palavras.find(p => p.id === '001');
+}
+
+if (!palavraDeHoje) {
+  throw new Error(`Nenhuma palavra disponível`);
+}
+
+const { palavra, classe, silabacao, tonicidade, significado, etimologia, exemploCotidiano, exemploLiterario, sinonimos, antonimo, dificuldade, curiosidade } = palavraDeHoje.data;
+---
+
+<Layout title={`${palavra} | Vernáculo`} description={`Palavra do dia ${diaDoAno}: ${palavra}. ${significado}`}>
+  <div class="container">
+    <header>
+      <div class="header-content">
+        <h1 class="logo">Vernáculo</h1>
+        <div class="header-actions">
+          <button id="theme-toggle" aria-label="Alternar tema" title="Alternar tema">
+            <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+          <a href="/arquivo" class="btn-secondary">Arquivo</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="day-badge">Dia {diaDoAno} de 365</div>
+      
+      <article class="palavra-card">
+        <div class="palavra-header">
+          <h2 class="palavra-principal">{palavra}</h2>
+          <div class="dificuldade" title={`Dificuldade: ${dificuldade}/5`}>
+            {Array.from({ length: 5 }, (_, i) => (
+              <span class={`estrela ${i < dificuldade ? 'ativa' : ''}`}>★</span>
+            ))}
+          </div>
+        </div>
+        
+        <div class="palavra-info">
+          <div class="info-item">
+            <span class="info-label">Classe:</span>
+            <span>{classe}</span>
+          </div>
+          <div class="info-item">
+            <span class="info-label">Sílabas:</span>
+            <span>{silabacao} • {tonicidade}</span>
+          </div>
+        </div>
+
+        <section class="secao">
+          <h3>Significado</h3>
+          <p>{significado}</p>
+        </section>
+
+        <section class="secao">
+          <h3>Etimologia</h3>
+          <p>{etimologia}</p>
+        </section>
+
+        {curiosidade && (
+          <section class="secao curiosidade">
+            <h3>💡 Você sabia?</h3>
+            <p>{curiosidade}</p>
+          </section>
+        )}
+
+        <section class="secao">
+          <h3>Exemplos</h3>
+          <div class="exemplo">
+            <span class="exemplo-tag">Cotidiano</span>
+            <p>"{exemploCotidiano}"</p>
+          </div>
+          <div class="exemplo">
+            <span class="exemplo-tag">Literário</span>
+            <p>"{exemploLiterario}"</p>
+          </div>
+        </section>
+
+        <section class="secao">
+          <div class="sinonimos-antonimos">
+            <div>
+              <h3>Sinônimos</h3>
+              <div class="tags">
+                {sinonimos.map(sin => <span class="tag">{sin}</span>)}
+              </div>
+            </div>
+            {antonimo && (
+              <div>
+                <h3>Antônimo</h3>
+                <div class="tags">
+                  <span class="tag antonimo-tag">{antonimo}</span>
+                </div>
+              </div>
+            )}
+          </div>
+        </section>
+
+        <div class="acoes">
+          <button id="btn-compartilhar" class="btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="18" cy="5" r="3"></circle>
+              <circle cx="6" cy="12" r="3"></circle>
+              <circle cx="18" cy="19" r="3"></circle>
+              <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+              <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+            </svg>
+            Compartilhar
+          </button>
+        </div>
+      </article>
+
+      <div id="contador-palavras" class="contador">
+        <!-- Será preenchido pelo JavaScript -->
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Vernáculo • Uma palavra erudita por dia, 365 dias por ano
+      </p>
+    </footer>
+  </div>
+
+  <style>
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      margin-bottom: 3rem;
+    }
+
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .logo {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--text-primary);
+      letter-spacing: -0.02em;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+    }
+
+    #theme-toggle {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s;
+      color: var(--text-primary);
+    }
+
+    #theme-toggle:hover {
+      background: var(--bg-tertiary);
+    }
+
+    [data-theme="light"] .moon-icon,
+    [data-theme="dark"] .sun-icon {
+      display: none;
+    }
+
+    .btn-secondary {
+      padding: 0.5rem 1rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      color: var(--text-primary);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.875rem;
+      transition: all 0.2s;
+      display: inline-block;
+    }
+
+    .btn-secondary:hover {
+      background: var(--bg-tertiary);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    .day-badge {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 2rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+
+    .palavra-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      padding: 2.5rem;
+      box-shadow: 0 4px 6px var(--shadow);
+    }
+
+    .palavra-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .palavra-principal {
+      font-family: var(--font-display);
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: var(--text-primary);
+      line-height: 1;
+      letter-spacing: -0.02em;
+    }
+
+    .dificuldade {
+      display: flex;
+      gap: 0.25rem;
+    }
+
+    .estrela {
+      color: var(--border);
+      font-size: 1.25rem;
+    }
+
+    .estrela.ativa {
+      color: #ffd43b;
+    }
+
+    .palavra-info {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .info-item {
+      display: flex;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+    }
+
+    .info-label {
+      color: var(--text-tertiary);
+      font-weight: 600;
+    }
+
+    .secao {
+      margin-top: 2rem;
+    }
+
+    .secao h3 {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: var(--text-primary);
+    }
+
+    .secao p {
+      color: var(--text-secondary);
+      line-height: 1.7;
+    }
+
+    .curiosidade {
+      background: var(--bg-tertiary);
+      padding: 1.25rem;
+      border-radius: 0.75rem;
+      border-left: 4px solid var(--accent);
+    }
+
+    .exemplo {
+      margin-top: 1rem;
+      padding-left: 1rem;
+      border-left: 3px solid var(--border);
+    }
+
+    .exemplo-tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+
+    .exemplo p {
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+
+    .sinonimos-antonimos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+
+    .tag {
+      background: var(--bg-tertiary);
+      padding: 0.375rem 0.75rem;
+      border-radius: 0.375rem;
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+    }
+
+    .antonimo-tag {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    .acoes {
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: center;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 0.75rem 2rem;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+    }
+
+    .contador {
+      margin-top: 2rem;
+      text-align: center;
+      padding: 1.5rem;
+      background: var(--bg-secondary);
+      border-radius: 0.75rem;
+      border: 1px solid var(--border);
+    }
+
+    .contador-texto {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+    }
+
+    .contador-numero {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent);
+      display: block;
+      margin-top: 0.25rem;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-tertiary);
+      font-size: 0.875rem;
+    }
+
+    @media (max-width: 640px) {
+      .palavra-card {
+        padding: 1.5rem;
+      }
+
+      .palavra-principal {
+        font-size: 2.5rem;
+      }
+    }
+  </style>
+
+  <script>
+    // Gerenciamento de tema
+    const themeToggle = document.getElementById('theme-toggle');
+    
+    themeToggle?.addEventListener('click', () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+    });
+
+    // Contador de palavras vistas
+    const diaAtual = parseInt(document.querySelector('.day-badge')?.textContent?.match(/\d+/)?.[0] || '0');
+    
+    const palavrasVistas = JSON.parse(localStorage.getItem('palavrasVistas') || '[]');
+    
+    if (!palavrasVistas.includes(diaAtual)) {
+      palavrasVistas.push(diaAtual);
+      localStorage.setItem('palavrasVistas', JSON.stringify(palavrasVistas));
+    }
+
+    const contadorEl = document.getElementById('contador-palavras');
+    if (contadorEl) {
+      contadorEl.innerHTML = `
+        <div class="contador-texto">Você já conheceu</div>
+        <span class="contador-numero">${palavrasVistas.length}</span>
+        <div class="contador-texto">${palavrasVistas.length === 1 ? 'palavra' : 'palavras'}</div>
+      `;
+    }
+
+    // Compartilhar
+    const btnCompartilhar = document.getElementById('btn-compartilhar');
+    const palavra = document.querySelector('.palavra-principal')?.textContent;
+    
+    btnCompartilhar?.addEventListener('click', async () => {
+      const texto = `Palavra do dia ${diaAtual}: ${palavra} — Vernáculo`;
+      const url = window.location.href;
+      
+      if (navigator.share) {
+        try {
+          await navigator.share({ title: texto, url });
+        } catch (err) {
+          // Usuário cancelou ou erro
+        }
+      } else {
+        // Fallback: copiar para área de transferência
+        try {
+          await navigator.clipboard.writeText(`${texto}\n${url}`);
+          alert('Link copiado para a área de transferência!');
+        } catch (err) {
+          alert('Não foi possível compartilhar');
+        }
+      }
+    });
+  </script>
+</Layout>

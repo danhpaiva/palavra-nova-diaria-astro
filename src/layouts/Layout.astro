@@ -1,0 +1,95 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Expanda seu vocabulário, uma palavra erudita por dia" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet" />
+    
+    <!-- Theme script (executado antes do render para evitar flash) -->
+    <script is:inline>
+      const getTheme = () => {
+        const stored = localStorage.getItem('theme');
+        if (stored) return stored;
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      };
+      
+      const theme = getTheme();
+      document.documentElement.setAttribute('data-theme', theme);
+    </script>
+  </head>
+  <body>
+    <slot />
+    
+    <style is:global>
+      :root {
+        --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+        --font-display: 'Playfair Display', Georgia, serif;
+        
+        /* Cores tema claro */
+        --bg-primary: #ffffff;
+        --bg-secondary: #f8f9fa;
+        --bg-tertiary: #e9ecef;
+        --text-primary: #212529;
+        --text-secondary: #495057;
+        --text-tertiary: #6c757d;
+        --accent: #1971c2;
+        --accent-hover: #1864ab;
+        --border: #dee2e6;
+        --shadow: rgba(0, 0, 0, 0.1);
+      }
+      
+      [data-theme="dark"] {
+        --bg-primary: #1a1b1e;
+        --bg-secondary: #25262b;
+        --bg-tertiary: #2c2e33;
+        --text-primary: #f8f9fa;
+        --text-secondary: #ced4da;
+        --text-tertiary: #adb5bd;
+        --accent: #4dabf7;
+        --accent-hover: #74c0fc;
+        --border: #373a40;
+        --shadow: rgba(0, 0, 0, 0.3);
+      }
+      
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      
+      html {
+        font-family: var(--font-body);
+        background: var(--bg-primary);
+        color: var(--text-primary);
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      
+      body {
+        min-height: 100vh;
+        line-height: 1.6;
+      }
+      
+      ::selection {
+        background: var(--accent);
+        color: white;
+      }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "palavra": "pungente",
+  "classe": "adjetivo",
+  "silabacao": "pun-gen-te",
+  "tonicidade": "paroxítona (gen)",
+  "significado": "Que causa dor aguda, física ou moral; penetrante, comovente.",
+  "etimologia": "Do latim pungens, particípio de pungere (picar, furar).",
+  "exemploCotidiano": "A perda do amigo foi uma dor pungente que demorou a passar.",
+  "exemploLiterario": "Um aroma pungente de jasmim invadiu o jardim ao cair da tarde, trazendo lembranças que feriam como espinhos.",
+  "sinonimos": [
+    "penetrante",
+    "agudo",
+    "comovente",
+    "doloroso"
+  ],
+  "antonimo": "suave",
+  "dificuldade": 1
+}

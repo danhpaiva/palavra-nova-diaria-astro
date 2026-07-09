@@ -1,0 +1,15 @@
+{
+  "palavra": "bissexto",
+  "classe": "adjetivo",
+  "silabacao": "bis-sex-to",
+  "tonicidade": "paroxítona (sex)",
+  "significado": "Referente ao ano que tem 366 dias, com um dia adicional em fevereiro; ano intercalar.",
+  "etimologia": "Do latim bisextus (bis = duas vezes + sextus = sexto), porque os romanos contavam o dia extra como um sexto dia repetido antes das calendas de março.",
+  "exemploCotidiano": "Nasceu num 29 de fevereiro, então só comemora aniversário de verdade em ano bissexto.",
+  "exemploLiterario": "O ano bissexto trazia consigo uma estranha sensação de tempo suspenso, como se o calendário hesitasse antes de seguir adiante.",
+  "sinonimos": [
+    "intercalar"
+  ],
+  "dificuldade": 4,
+  "curiosidade": "Palavra especial para o dia 366 — uma palavra sobre o próprio dia em que aparece! Os anos bissextos existem porque o ano solar tem aproximadamente 365,25 dias."
+}

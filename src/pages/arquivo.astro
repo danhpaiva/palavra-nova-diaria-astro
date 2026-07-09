@@ -1,0 +1,392 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const palavras = await getCollection('palavras');
+
+// Ordena por ID (001, 002, etc.)
+const palavrasOrdenadas = palavras.sort((a, b) => {
+  const numA = parseInt(a.id);
+  const numB = parseInt(b.id);
+  return numA - numB;
+});
+
+// Calcula o dia do ano atual
+const hoje = new Date();
+const inicioDano = new Date(hoje.getFullYear(), 0, 1);
+const diferencaMs = hoje.getTime() - inicioDano.getTime();
+const diaDoAno = Math.floor(diferencaMs / (1000 * 60 * 60 * 24)) + 1;
+---
+
+<Layout title="Arquivo | Vernáculo" description="Explore todas as palavras do Vernáculo organizadas por dia do ano">
+  <div class="container">
+    <header>
+      <div class="header-content">
+        <h1 class="logo">Vernáculo</h1>
+        <div class="header-actions">
+          <button id="theme-toggle" aria-label="Alternar tema" title="Alternar tema">
+            <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+          <a href="/" class="btn-secondary">← Palavra de hoje</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="page-header">
+        <h2>Arquivo de Palavras</h2>
+        <p class="subtitle">Explore as {palavrasOrdenadas.length} palavras do vocabulário erudito</p>
+      </div>
+
+      <div class="filtros">
+        <input 
+          type="search" 
+          id="busca" 
+          placeholder="Buscar por palavra..."
+          class="busca-input"
+        />
+        <select id="filtro-dificuldade" class="filtro-select">
+          <option value="">Todas as dificuldades</option>
+          <option value="1">⭐ Iniciante</option>
+          <option value="2">⭐⭐ Básico</option>
+          <option value="3">⭐⭐⭐ Intermediário</option>
+          <option value="4">⭐⭐⭐⭐ Avançado</option>
+          <option value="5">⭐⭐⭐⭐⭐ Erudito</option>
+        </select>
+      </div>
+
+      <div class="palavras-grid">
+        {palavrasOrdenadas.map((item) => {
+          const dia = parseInt(item.id);
+          const { palavra, significado, dificuldade } = item.data;
+          const jaVisto = diaDoAno >= dia;
+          
+          return (
+            <article 
+              class={`palavra-item ${jaVisto ? 'visivel' : 'bloqueada'}`}
+              data-palavra={palavra.toLowerCase()}
+              data-dificuldade={dificuldade}
+            >
+              <div class="palavra-item-header">
+                <span class="dia-numero">Dia {dia}</span>
+                <div class="dificuldade-badge">
+                  {Array.from({ length: dificuldade }, () => '⭐').join('')}
+                </div>
+              </div>
+              
+              {jaVisto ? (
+                <>
+                  <h3 class="palavra-titulo">{palavra}</h3>
+                  <p class="palavra-significado">{significado}</p>
+                  <a href={`/palavra/${dia}`} class="btn-ver-mais">Ver detalhes →</a>
+                </>
+              ) : (
+                <>
+                  <h3 class="palavra-titulo bloqueada-texto">???</h3>
+                  <p class="palavra-significado">Disponível em breve</p>
+                  <div class="icone-cadeado">🔒</div>
+                </>
+              )}
+            </article>
+          );
+        })}
+      </div>
+
+      <div id="sem-resultados" class="sem-resultados" style="display: none;">
+        <p>Nenhuma palavra encontrada</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>Vernáculo • Uma palavra erudita por dia, 365 dias por ano</p>
+    </footer>
+  </div>
+
+  <style>
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      margin-bottom: 3rem;
+    }
+
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .logo {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--text-primary);
+      letter-spacing: -0.02em;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+    }
+
+    #theme-toggle {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s;
+      color: var(--text-primary);
+    }
+
+    #theme-toggle:hover {
+      background: var(--bg-tertiary);
+    }
+
+    [data-theme="light"] .moon-icon,
+    [data-theme="dark"] .sun-icon {
+      display: none;
+    }
+
+    .btn-secondary {
+      padding: 0.5rem 1rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      color: var(--text-primary);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.875rem;
+      transition: all 0.2s;
+      display: inline-block;
+    }
+
+    .btn-secondary:hover {
+      background: var(--bg-tertiary);
+    }
+
+    main {
+      flex: 1;
+    }
+
+    .page-header {
+      margin-bottom: 2rem;
+    }
+
+    .page-header h2 {
+      font-family: var(--font-display);
+      font-size: 2.5rem;
+      font-weight: 900;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: var(--text-secondary);
+      font-size: 1.125rem;
+    }
+
+    .filtros {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .busca-input,
+    .filtro-select {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      background: var(--bg-secondary);
+      color: var(--text-primary);
+      font-size: 1rem;
+      font-family: var(--font-body);
+    }
+
+    .busca-input {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .filtro-select {
+      min-width: 200px;
+    }
+
+    .palavras-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .palavra-item {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      transition: all 0.2s;
+    }
+
+    .palavra-item.visivel:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px var(--shadow);
+    }
+
+    .palavra-item.bloqueada {
+      opacity: 0.6;
+      position: relative;
+    }
+
+    .palavra-item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .dia-numero {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .dificuldade-badge {
+      font-size: 0.875rem;
+    }
+
+    .palavra-titulo {
+      font-family: var(--font-display);
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      color: var(--text-primary);
+    }
+
+    .palavra-titulo.bloqueada-texto {
+      letter-spacing: 0.5rem;
+      color: var(--text-tertiary);
+    }
+
+    .palavra-significado {
+      color: var(--text-secondary);
+      font-size: 0.875rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .btn-ver-mais {
+      display: inline-block;
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.875rem;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .btn-ver-mais:hover {
+      color: var(--accent-hover);
+    }
+
+    .icone-cadeado {
+      font-size: 2rem;
+      text-align: center;
+      opacity: 0.3;
+    }
+
+    .sem-resultados {
+      text-align: center;
+      padding: 3rem;
+      color: var(--text-tertiary);
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-tertiary);
+      font-size: 0.875rem;
+    }
+
+    @media (max-width: 640px) {
+      .palavras-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+  <script>
+    // Gerenciamento de tema
+    const themeToggle = document.getElementById('theme-toggle');
+    
+    themeToggle?.addEventListener('click', () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+    });
+
+    // Filtros e busca
+    const busca = document.getElementById('busca') as HTMLInputElement;
+    const filtroDificuldade = document.getElementById('filtro-dificuldade') as HTMLSelectElement;
+    const palavrasItems = document.querySelectorAll('.palavra-item');
+    const semResultados = document.getElementById('sem-resultados');
+
+    function filtrar() {
+      const textoBusca = busca?.value.toLowerCase() || '';
+      const dificuldadeSelecionada = filtroDificuldade?.value || '';
+      
+      let visiveis = 0;
+      
+      palavrasItems.forEach((item) => {
+        const palavra = item.getAttribute('data-palavra') || '';
+        const dificuldade = item.getAttribute('data-dificuldade') || '';
+        
+        const matchBusca = palavra.includes(textoBusca);
+        const matchDificuldade = !dificuldadeSelecionada || dificuldade === dificuldadeSelecionada;
+        
+        if (matchBusca && matchDificuldade) {
+          (item as HTMLElement).style.display = 'block';
+          visiveis++;
+        } else {
+          (item as HTMLElement).style.display = 'none';
+        }
+      });
+      
+      if (semResultados) {
+        semResultados.style.display = visiveis === 0 ? 'block' : 'none';
+      }
+    }
+
+    busca?.addEventListener('input', filtrar);
+    filtroDificuldade?.addEventListener('change', filtrar);
+  </script>
+</Layout>
