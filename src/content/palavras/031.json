@@ -1,15 +1,16 @@
 {
-  "palavra": "palavra31",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-31",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 31 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 31.",
-  "exemploLiterario": "Exemplo literário 31.",
+  "palavra": "acérrimo",
+  "classe": "adjetivo",
+  "silabacao": "a-é-r-m-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra acérrimo e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como acérrimo para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
-  "dificuldade": 1
+  "dificuldade": 1,
+  "curiosidade": "A palavra acérrimo tem origem clássica e uso literário."
 }

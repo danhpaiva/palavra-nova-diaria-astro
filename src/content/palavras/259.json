@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra259",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-259",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 259 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 259.",
-  "exemploLiterario": "Exemplo literário 259.",
+  "palavra": "pátria",
+  "classe": "adjetivo",
+  "silabacao": "p-t-i-a",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra pátria e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como pátria para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 4
 }

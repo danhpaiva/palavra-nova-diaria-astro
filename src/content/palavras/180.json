@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra180",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-180",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 180 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 180.",
-  "exemploLiterario": "Exemplo literário 180.",
+  "palavra": "grata",
+  "classe": "adjetivo",
+  "silabacao": "g-a-a",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra grata e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como grata para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 3
 }

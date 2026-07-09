@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra129",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-129",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 129 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 129.",
-  "exemploLiterario": "Exemplo literário 129.",
+  "palavra": "prolixo",
+  "classe": "adjetivo",
+  "silabacao": "p-o-i-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra prolixo e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como prolixo para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 2
 }

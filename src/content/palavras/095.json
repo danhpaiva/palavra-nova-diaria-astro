@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra95",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-95",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 95 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 95.",
-  "exemploLiterario": "Exemplo literário 95.",
+  "palavra": "brioso",
+  "classe": "adjetivo",
+  "silabacao": "b-i-s-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra brioso e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como brioso para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 2
 }

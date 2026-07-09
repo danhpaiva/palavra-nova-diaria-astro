@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra260",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-260",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 260 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 260.",
-  "exemploLiterario": "Exemplo literário 260.",
+  "palavra": "quase",
+  "classe": "adjetivo",
+  "silabacao": "q-a-e",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra quase e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como quase para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 4
 }

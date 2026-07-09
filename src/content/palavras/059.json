@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra59",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-59",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 59 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 59.",
-  "exemploLiterario": "Exemplo literário 59.",
+  "palavra": "hiato",
+  "classe": "adjetivo",
+  "silabacao": "h-a-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra hiato e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como hiato para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 1
 }

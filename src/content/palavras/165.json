@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra165",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-165",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 165 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 165.",
-  "exemploLiterario": "Exemplo literário 165.",
+  "palavra": "lépido",
+  "classe": "adjetivo",
+  "silabacao": "l-p-d-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra lépido e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como lépido para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 3
 }

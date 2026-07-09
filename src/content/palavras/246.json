@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra246",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-246",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 246 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 246.",
-  "exemploLiterario": "Exemplo literário 246.",
+  "palavra": "vago",
+  "classe": "adjetivo",
+  "silabacao": "vago",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra vago e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como vago para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 4
 }

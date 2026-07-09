@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra7",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-7",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 7 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 7.",
-  "exemploLiterario": "Exemplo literário 7.",
+  "palavra": "júbilo",
+  "classe": "adjetivo",
+  "silabacao": "j-b-l-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra júbilo e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como júbilo para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 1
 }

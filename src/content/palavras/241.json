@@ -1,15 +1,16 @@
 {
-  "palavra": "palavra241",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-241",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 241 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 241.",
-  "exemploLiterario": "Exemplo literário 241.",
+  "palavra": "óleo",
+  "classe": "adjetivo",
+  "silabacao": "óleo",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra óleo e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como óleo para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
-  "dificuldade": 4
+  "dificuldade": 4,
+  "curiosidade": "A palavra óleo tem origem clássica e uso literário."
 }

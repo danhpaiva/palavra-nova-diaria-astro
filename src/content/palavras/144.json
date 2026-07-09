@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra144",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-144",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 144 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 144.",
-  "exemploLiterario": "Exemplo literário 144.",
+  "palavra": "incólume",
+  "classe": "adjetivo",
+  "silabacao": "i-c-l-m-e",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra incólume e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como incólume para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 2
 }

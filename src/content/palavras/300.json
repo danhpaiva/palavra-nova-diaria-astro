@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra300",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-300",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 300 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 300.",
-  "exemploLiterario": "Exemplo literário 300.",
+  "palavra": "colmo",
+  "classe": "adjetivo",
+  "silabacao": "c-l-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra colmo e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como colmo para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 5
 }

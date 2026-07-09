@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra242",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-242",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 242 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 242.",
-  "exemploLiterario": "Exemplo literário 242.",
+  "palavra": "próprio",
+  "classe": "adjetivo",
+  "silabacao": "p-ó-r-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra próprio e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como próprio para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 4
 }

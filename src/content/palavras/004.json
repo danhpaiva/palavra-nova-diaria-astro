@@ -1,17 +1,15 @@
 {
   "palavra": "escrutínio",
-  "classe": "substantivo masculino",
-  "silabacao": "es-cru-tí-nio",
-  "tonicidade": "paroxítona (tí)",
-  "significado": "Exame minucioso e rigoroso; investigação detalhada.",
-  "etimologia": "Do latim scrutinium (busca, investigação), de scrutari (revistar, examinar).",
-  "exemploCotidiano": "O projeto passou por um escrutínio severo antes de ser aprovado.",
-  "exemploLiterario": "Sob o escrutínio implacável da crítica literária, poucos autores sobrevivem ilesos ao teste do tempo.",
+  "classe": "adjetivo",
+  "silabacao": "e-c-u-í-i-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra escrutínio e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como escrutínio para criar atmosfera erudita.",
   "sinonimos": [
-    "exame",
-    "análise",
-    "investigação",
-    "inspeção"
+    "forte",
+    "intenso"
   ],
-  "dificuldade": 2
+  "dificuldade": 1
 }

@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra338",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-338",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 338 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 338.",
-  "exemploLiterario": "Exemplo literário 338.",
+  "palavra": "grave",
+  "classe": "adjetivo",
+  "silabacao": "g-a-e",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra grave e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como grave para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 5
 }

@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra252",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-252",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 252 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 252.",
-  "exemploLiterario": "Exemplo literário 252.",
+  "palavra": "falível",
+  "classe": "adjetivo",
+  "silabacao": "f-l-v-l",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra falível e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como falível para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 4
 }

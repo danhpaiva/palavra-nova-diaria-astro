@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra176",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-176",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 176 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 176.",
-  "exemploLiterario": "Exemplo literário 176.",
+  "palavra": "cativo",
+  "classe": "adjetivo",
+  "silabacao": "c-t-v-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra cativo e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como cativo para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 3
 }

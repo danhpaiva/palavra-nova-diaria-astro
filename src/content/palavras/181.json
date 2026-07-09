@@ -1,15 +1,16 @@
 {
-  "palavra": "palavra181",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-181",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 181 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 181.",
-  "exemploLiterario": "Exemplo literário 181.",
+  "palavra": "imolação",
+  "classe": "adjetivo",
+  "silabacao": "i-o-a-ã-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra imolação e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como imolação para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
-  "dificuldade": 3
+  "dificuldade": 3,
+  "curiosidade": "A palavra imolação tem origem clássica e uso literário."
 }

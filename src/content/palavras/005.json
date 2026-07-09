@@ -1,19 +1,15 @@
 {
   "palavra": "efêmero",
   "classe": "adjetivo",
-  "silabacao": "e-fê-me-ro",
-  "tonicidade": "proparoxítona (fê)",
-  "significado": "Que dura pouco tempo; passageiro, transitório.",
-  "etimologia": "Do grego ephémeros (ἐφήμερος, que dura um dia), de epi (sobre) + hēméra (dia).",
-  "exemploCotidiano": "A alegria das férias foi efêmera, logo voltamos à rotina.",
-  "exemploLiterario": "A beleza é efêmera como as flores que desabrocham ao amanhecer e murcham antes do crepúsculo.",
+  "silabacao": "e-ê-e-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra efêmero e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como efêmero para criar atmosfera erudita.",
   "sinonimos": [
-    "passageiro",
-    "fugaz",
-    "transitório",
-    "momentâneo"
+    "forte",
+    "intenso"
   ],
-  "antonimo": "eterno",
-  "dificuldade": 2,
-  "curiosidade": "Na entomologia, 'efemérida' é o nome de insetos que vivem apenas um dia em sua forma adulta."
+  "dificuldade": 1
 }

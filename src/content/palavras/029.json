@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra29",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-29",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 29 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 29.",
-  "exemploLiterario": "Exemplo literário 29.",
+  "palavra": "ubíquo",
+  "classe": "adjetivo",
+  "silabacao": "u-í-u-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra ubíquo e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como ubíquo para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 1
 }

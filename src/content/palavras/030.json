@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra30",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-30",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 30 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 30.",
-  "exemploLiterario": "Exemplo literário 30.",
+  "palavra": "veemente",
+  "classe": "adjetivo",
+  "silabacao": "v-e-e-t-e",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra veemente e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como veemente para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 1
 }

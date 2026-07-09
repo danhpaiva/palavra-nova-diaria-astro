@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra153",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-153",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 153 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 153.",
-  "exemploLiterario": "Exemplo literário 153.",
+  "palavra": "tépido",
+  "classe": "adjetivo",
+  "silabacao": "t-p-d-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra tépido e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como tépido para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 3
 }

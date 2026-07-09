@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra199",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-199",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 199 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 199.",
-  "exemploLiterario": "Exemplo literário 199.",
+  "palavra": "greta",
+  "classe": "adjetivo",
+  "silabacao": "g-e-a",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra greta e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como greta para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 3
 }

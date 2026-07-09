@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra94",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-94",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 94 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 94.",
-  "exemploLiterario": "Exemplo literário 94.",
+  "palavra": "alcunha",
+  "classe": "adjetivo",
+  "silabacao": "a-c-n-a",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra alcunha e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como alcunha para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 2
 }

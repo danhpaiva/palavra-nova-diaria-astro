@@ -1,15 +1,16 @@
 {
-  "palavra": "palavra211",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-211",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 211 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 211.",
-  "exemploLiterario": "Exemplo literário 211.",
+  "palavra": "uvular",
+  "classe": "adjetivo",
+  "silabacao": "u-u-a-r",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra uvular e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como uvular para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
-  "dificuldade": 3
+  "dificuldade": 3,
+  "curiosidade": "A palavra uvular tem origem clássica e uso literário."
 }

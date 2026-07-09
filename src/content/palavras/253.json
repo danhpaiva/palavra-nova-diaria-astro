@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra253",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-253",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 253 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 253.",
-  "exemploLiterario": "Exemplo literário 253.",
+  "palavra": "guarda",
+  "classe": "adjetivo",
+  "silabacao": "g-a-d-a",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra guarda e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como guarda para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 4
 }

@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra203",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-203",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 203 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 203.",
-  "exemploLiterario": "Exemplo literário 203.",
+  "palavra": "ludíbrio",
+  "classe": "adjetivo",
+  "silabacao": "l-d-b-i-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra ludíbrio e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como ludíbrio para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 3
 }

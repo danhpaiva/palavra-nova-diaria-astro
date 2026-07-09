@@ -1,15 +1,16 @@
 {
-  "palavra": "palavra131",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-131",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 131 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 131.",
-  "exemploLiterario": "Exemplo literário 131.",
+  "palavra": "régio",
+  "classe": "adjetivo",
+  "silabacao": "r-g-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra régio e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como régio para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
-  "dificuldade": 2
+  "dificuldade": 2,
+  "curiosidade": "A palavra régio tem origem clássica e uso literário."
 }

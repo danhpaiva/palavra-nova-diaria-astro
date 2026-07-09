@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra104",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-104",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 104 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 104.",
-  "exemploLiterario": "Exemplo literário 104.",
+  "palavra": "lasso",
+  "classe": "adjetivo",
+  "silabacao": "l-s-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra lasso e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como lasso para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 2
 }

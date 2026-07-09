@@ -1,15 +1,16 @@
 {
-  "palavra": "palavra281",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-281",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 281 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 281.",
-  "exemploLiterario": "Exemplo literário 281.",
+  "palavra": "zelar",
+  "classe": "adjetivo",
+  "silabacao": "z-l-r",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra zelar e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como zelar para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
-  "dificuldade": 4
+  "dificuldade": 4,
+  "curiosidade": "A palavra zelar tem origem clássica e uso literário."
 }

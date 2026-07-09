@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra268",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-268",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 268 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 268.",
-  "exemploLiterario": "Exemplo literário 268.",
+  "palavra": "entono",
+  "classe": "adjetivo",
+  "silabacao": "e-t-n-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra entono e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como entono para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 4
 }

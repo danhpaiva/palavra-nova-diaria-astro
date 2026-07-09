@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra23",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-23",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 23 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 23.",
-  "exemploLiterario": "Exemplo literário 23.",
+  "palavra": "opróbrio",
+  "classe": "adjetivo",
+  "silabacao": "o-r-b-i-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra opróbrio e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como opróbrio para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 1
 }

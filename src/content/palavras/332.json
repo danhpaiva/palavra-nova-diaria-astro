@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra332",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-332",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 332 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 332.",
-  "exemploLiterario": "Exemplo literário 332.",
+  "palavra": "zero",
+  "classe": "adjetivo",
+  "silabacao": "zero",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra zero e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como zero para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 5
 }

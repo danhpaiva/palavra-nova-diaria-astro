@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra73",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-73",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 73 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 73.",
-  "exemploLiterario": "Exemplo literário 73.",
+  "palavra": "abstruso",
+  "classe": "adjetivo",
+  "silabacao": "a-s-r-s-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra abstruso e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como abstruso para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 1
 }

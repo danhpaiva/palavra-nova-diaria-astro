@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra152",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-152",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 152 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 152.",
-  "exemploLiterario": "Exemplo literário 152.",
+  "palavra": "secular",
+  "classe": "adjetivo",
+  "silabacao": "s-c-l-r",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra secular e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como secular para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 3
 }

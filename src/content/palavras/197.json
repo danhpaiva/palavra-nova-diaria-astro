@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra197",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-197",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 197 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 197.",
-  "exemploLiterario": "Exemplo literário 197.",
+  "palavra": "égua",
+  "classe": "adjetivo",
+  "silabacao": "égua",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra égua e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como égua para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 3
 }

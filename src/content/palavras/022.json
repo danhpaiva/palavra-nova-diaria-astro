@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra22",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-22",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 22 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 22.",
-  "exemploLiterario": "Exemplo literário 22.",
+  "palavra": "nefasto",
+  "classe": "adjetivo",
+  "silabacao": "n-f-s-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra nefasto e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como nefasto para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 1
 }

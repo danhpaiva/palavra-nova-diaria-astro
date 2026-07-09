@@ -1,15 +1,16 @@
 {
-  "palavra": "palavra11",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-11",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 11 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 11.",
-  "exemploLiterario": "Exemplo literário 11.",
+  "palavra": "escárnio",
+  "classe": "adjetivo",
+  "silabacao": "e-c-r-i-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra escárnio e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como escárnio para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
-  "dificuldade": 1
+  "dificuldade": 1,
+  "curiosidade": "A palavra escárnio tem origem clássica e uso literário."
 }

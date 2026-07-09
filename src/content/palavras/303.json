@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra303",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-303",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 303 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 303.",
-  "exemploLiterario": "Exemplo literário 303.",
+  "palavra": "féretro",
+  "classe": "adjetivo",
+  "silabacao": "f-r-t-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra féretro e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como féretro para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 5
 }

@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra334",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-334",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 334 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 334.",
-  "exemploLiterario": "Exemplo literário 334.",
+  "palavra": "comum",
+  "classe": "adjetivo",
+  "silabacao": "c-m-m",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra comum e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como comum para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 5
 }

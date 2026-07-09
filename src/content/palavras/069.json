@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra69",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-69",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 69 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 69.",
-  "exemploLiterario": "Exemplo literário 69.",
+  "palavra": "sórdido",
+  "classe": "adjetivo",
+  "silabacao": "s-r-i-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra sórdido e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como sórdido para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 1
 }

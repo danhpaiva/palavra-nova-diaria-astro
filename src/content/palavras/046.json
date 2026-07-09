@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra46",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-46",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 46 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 46.",
-  "exemploLiterario": "Exemplo literário 46.",
+  "palavra": "queda",
+  "classe": "adjetivo",
+  "silabacao": "q-e-a",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra queda e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como queda para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 1
 }

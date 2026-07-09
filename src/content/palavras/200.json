@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra200",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-200",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 200 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 200.",
-  "exemploLiterario": "Exemplo literário 200.",
+  "palavra": "imune",
+  "classe": "adjetivo",
+  "silabacao": "i-u-e",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra imune e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como imune para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 3
 }

@@ -1,15 +1,16 @@
 {
-  "palavra": "palavra331",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-331",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 331 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 331.",
-  "exemploLiterario": "Exemplo literário 331.",
+  "palavra": "ventre",
+  "classe": "adjetivo",
+  "silabacao": "v-n-r-e",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra ventre e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como ventre para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
-  "dificuldade": 5
+  "dificuldade": 5,
+  "curiosidade": "A palavra ventre tem origem clássica e uso literário."
 }

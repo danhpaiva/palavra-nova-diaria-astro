@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra137",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-137",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 137 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 137.",
-  "exemploLiterario": "Exemplo literário 137.",
+  "palavra": "bússola",
+  "classe": "adjetivo",
+  "silabacao": "b-s-o-a",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra bússola e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como bússola para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 2
 }

@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra133",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-133",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 133 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 133.",
-  "exemploLiterario": "Exemplo literário 133.",
+  "palavra": "turvo",
+  "classe": "adjetivo",
+  "silabacao": "t-r-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra turvo e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como turvo para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 2
 }

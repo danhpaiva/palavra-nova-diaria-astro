@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra10",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-10",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 10 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 10.",
-  "exemploLiterario": "Exemplo literário 10.",
+  "palavra": "inócuo",
+  "classe": "adjetivo",
+  "silabacao": "i-ó-u-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra inócuo e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como inócuo para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 1
 }

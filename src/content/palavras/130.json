@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra130",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-130",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 130 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 130.",
-  "exemploLiterario": "Exemplo literário 130.",
+  "palavra": "quiromancia",
+  "classe": "adjetivo",
+  "silabacao": "q-i-o-a-c-a",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra quiromancia e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como quiromancia para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 2
 }

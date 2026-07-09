@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra75",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-75",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 75 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 75.",
-  "exemploLiterario": "Exemplo literário 75.",
+  "palavra": "cioso",
+  "classe": "adjetivo",
+  "silabacao": "c-o-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra cioso e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como cioso para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 2
 }

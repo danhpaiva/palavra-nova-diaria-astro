@@ -1,15 +1,16 @@
 {
-  "palavra": "palavra71",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-71",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 71 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 71.",
-  "exemploLiterario": "Exemplo literário 71.",
+  "palavra": "ufano",
+  "classe": "adjetivo",
+  "silabacao": "u-a-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra ufano e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como ufano para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
-  "dificuldade": 1
+  "dificuldade": 1,
+  "curiosidade": "A palavra ufano tem origem clássica e uso literário."
 }

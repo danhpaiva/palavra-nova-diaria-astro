@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra224",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-224",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 224 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 224.",
-  "exemploLiterario": "Exemplo literário 224.",
+  "palavra": "ódio",
+  "classe": "adjetivo",
+  "silabacao": "ódio",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra ódio e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como ódio para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 4
 }

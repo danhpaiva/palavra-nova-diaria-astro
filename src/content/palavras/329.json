@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra329",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-329",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 329 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 329.",
-  "exemploLiterario": "Exemplo literário 329.",
+  "palavra": "setor",
+  "classe": "adjetivo",
+  "silabacao": "s-t-r",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra setor e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como setor para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 5
 }

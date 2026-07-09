@@ -1,15 +1,16 @@
 {
-  "palavra": "palavra231",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-231",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 231 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 231.",
-  "exemploLiterario": "Exemplo literário 231.",
+  "palavra": "ápice",
+  "classe": "adjetivo",
+  "silabacao": "á-i-e",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra ápice e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como ápice para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
-  "dificuldade": 4
+  "dificuldade": 4,
+  "curiosidade": "A palavra ápice tem origem clássica e uso literário."
 }

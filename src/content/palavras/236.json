@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra236",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-236",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 236 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 236.",
-  "exemploLiterario": "Exemplo literário 236.",
+  "palavra": "grude",
+  "classe": "adjetivo",
+  "silabacao": "g-u-e",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra grude e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como grude para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 4
 }

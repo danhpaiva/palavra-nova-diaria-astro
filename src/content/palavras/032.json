@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra32",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-32",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 32 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 32.",
-  "exemploLiterario": "Exemplo literário 32.",
+  "palavra": "beneplácito",
+  "classe": "adjetivo",
+  "silabacao": "b-n-p-á-i-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra beneplácito e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como beneplácito para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 1
 }

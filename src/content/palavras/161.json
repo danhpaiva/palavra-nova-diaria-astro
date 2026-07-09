@@ -1,15 +1,16 @@
 {
-  "palavra": "palavra161",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-161",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 161 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 161.",
-  "exemploLiterario": "Exemplo literário 161.",
+  "palavra": "glória",
+  "classe": "adjetivo",
+  "silabacao": "g-ó-i-a",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra glória e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como glória para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
-  "dificuldade": 3
+  "dificuldade": 3,
+  "curiosidade": "A palavra glória tem origem clássica e uso literário."
 }

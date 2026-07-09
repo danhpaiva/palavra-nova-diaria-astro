@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra306",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-306",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 306 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 306.",
-  "exemploLiterario": "Exemplo literário 306.",
+  "palavra": "jirau",
+  "classe": "adjetivo",
+  "silabacao": "j-r-u",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra jirau e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como jirau para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 5
 }

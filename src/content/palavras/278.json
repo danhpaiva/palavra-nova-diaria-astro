@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra278",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-278",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 278 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 278.",
-  "exemploLiterario": "Exemplo literário 278.",
+  "palavra": "sério",
+  "classe": "adjetivo",
+  "silabacao": "s-r-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra sério e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como sério para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 4
 }

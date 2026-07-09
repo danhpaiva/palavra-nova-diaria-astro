@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra287",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-287",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 287 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 287.",
-  "exemploLiterario": "Exemplo literário 287.",
+  "palavra": "guizo",
+  "classe": "adjetivo",
+  "silabacao": "g-i-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra guizo e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como guizo para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 4
 }

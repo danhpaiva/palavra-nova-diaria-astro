@@ -1,18 +1,15 @@
 {
   "palavra": "ínfimo",
   "classe": "adjetivo",
-  "silabacao": "ín-fi-mo",
-  "tonicidade": "proparoxítona (ín)",
-  "significado": "Muito pequeno, insignificante; mínimo, desprezível.",
-  "etimologia": "Do latim infimus (o mais baixo, superlativo de inferus).",
-  "exemploCotidiano": "O salário que me ofereceram era ínfimo, não dava nem para pagar o aluguel.",
-  "exemploLiterario": "A esperança que restava era ínfima, como uma vela prestes a se apagar na escuridão da noite.",
+  "silabacao": "í-f-m-o",
+  "tonicidade": "proparoxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim infimus.",
+  "exemploCotidiano": "Hoje aprendi a palavra ínfimo e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como ínfimo para criar atmosfera erudita.",
   "sinonimos": [
     "mínimo",
-    "minúsculo",
-    "diminuto",
-    "insignificante"
+    "diminuto"
   ],
-  "antonimo": "máximo",
   "dificuldade": 1
 }

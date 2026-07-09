@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra12",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-12",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 12 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 12.",
-  "exemploLiterario": "Exemplo literário 12.",
+  "palavra": "ânsia",
+  "classe": "adjetivo",
+  "silabacao": "â-s-a",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra ânsia e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como ânsia para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 1
 }

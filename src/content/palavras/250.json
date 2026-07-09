@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra250",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-250",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 250 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 250.",
-  "exemploLiterario": "Exemplo literário 250.",
+  "palavra": "destro",
+  "classe": "adjetivo",
+  "silabacao": "d-s-r-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra destro e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como destro para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 4
 }

@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra189",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-189",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 189 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 189.",
-  "exemploLiterario": "Exemplo literário 189.",
+  "palavra": "rijo",
+  "classe": "adjetivo",
+  "silabacao": "rijo",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra rijo e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como rijo para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 3
 }

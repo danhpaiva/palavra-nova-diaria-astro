@@ -1,15 +1,16 @@
 {
-  "palavra": "palavra111",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-111",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 111 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 111.",
-  "exemploLiterario": "Exemplo literário 111.",
+  "palavra": "sátrapa",
+  "classe": "adjetivo",
+  "silabacao": "s-t-a-a",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra sátrapa e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como sátrapa para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
-  "dificuldade": 2
+  "dificuldade": 2,
+  "curiosidade": "A palavra sátrapa tem origem clássica e uso literário."
 }

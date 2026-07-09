@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra205",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-205",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 205 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 205.",
-  "exemploLiterario": "Exemplo literário 205.",
+  "palavra": "óbulo",
+  "classe": "adjetivo",
+  "silabacao": "ó-u-o",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra óbulo e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como óbulo para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 3
 }

@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra173",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-173",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 173 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 173.",
-  "exemploLiterario": "Exemplo literário 173.",
+  "palavra": "urbe",
+  "classe": "adjetivo",
+  "silabacao": "urbe",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra urbe e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como urbe para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 3
 }

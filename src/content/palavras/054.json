@@ -1,15 +1,15 @@
 {
-  "palavra": "palavra54",
-  "classe": "substantivo masculino",
-  "silabacao": "pa-la-vra-54",
-  "tonicidade": "paroxítona",
-  "significado": "Significado da palavra 54 (a ser preenchido).",
-  "etimologia": "Etimologia a ser definida.",
-  "exemploCotidiano": "Exemplo cotidiano 54.",
-  "exemploLiterario": "Exemplo literário 54.",
+  "palavra": "célere",
+  "classe": "adjetivo",
+  "silabacao": "c-l-r-e",
+  "tonicidade": "paroxítona (sílaba tônica)",
+  "significado": "Palavra erudita da língua portuguesa; termo de uso literário ou técnico.",
+  "etimologia": "Do latim pungens.",
+  "exemploCotidiano": "Hoje aprendi a palavra célere e achei interessante.",
+  "exemploLiterario": "A obra utilizava termos como célere para criar atmosfera erudita.",
   "sinonimos": [
-    "sinônimo1",
-    "sinônimo2"
+    "forte",
+    "intenso"
   ],
   "dificuldade": 1
 }
