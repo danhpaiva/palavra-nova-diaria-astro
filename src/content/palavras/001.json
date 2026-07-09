@@ -1,0 +1,19 @@
+{
+  "palavra": "acervo",
+  "classe": "substantivo masculino",
+  "silabacao": "a-cer-vo",
+  "tonicidade": "paroxítona (cer)",
+  "significado": "Conjunto de bens culturais ou documentos reunidos; coleção, patrimônio.",
+  "etimologia": "Do latim acervus (monte, pilha, amontoado).",
+  "exemploCotidiano": "O acervo da biblioteca municipal tem livros que ninguém mais lê, mas são verdadeiros tesouros.",
+  "exemploLiterario": "O acervo do museu guardava as memórias de uma época em que o tempo parecia transcorrer de outro modo.",
+  "sinonimos": [
+    "coleção",
+    "arquivo",
+    "patrimônio",
+    "repositório"
+  ],
+  "antonimo": "escassez",
+  "dificuldade": 1,
+  "curiosidade": "A palavra mantém a mesma raiz latina que 'acervus', usada pelos romanos para descrever pilhas de grãos após a colheita."
+}
